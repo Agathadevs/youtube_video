@@ -29,29 +29,29 @@ import youtube_video as youtube
 
 Video=youtube.Video("url")
 
-Video.title()
+Video.title() #get video's title
 
-Video.description()
+Video.description() #get video's description
 
-Video.thumbnails()
+Video.thumbnails() #get video's thumbnails
 
-Video.channelId()
+Video.channelId() #get video's channelId
 
-Video.publishedAt()
+Video.publishedAt() #get video's publishedAt
 
-Video.Id()
+Video.Id() #get video's Id
 
-Video.channelTitle()
+Video.channelTitle() #get video's channelTitle
 
-Video.etag()
+Video.etag() #get video's etag
 
-Video.caption()
+Video.caption() #get video's caption
 
-Video.defaultAudioLanguage()
+Video.defaultAudioLanguage() #get video's defaultAudioLanguage
 
-Video.categoryId()
+Video.categoryId() #get video's categoryId
 
-Video.liveBroadcastContent()
+Video.liveBroadcastContent() #get video's liveBroadcastContent
 
-Video.defaultLanguage()
+Video.defaultLanguage() #get video's defaultLanguage
 ```
