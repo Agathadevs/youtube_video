@@ -7,8 +7,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 try:
-    DEVELOPER_KEY = 'AIzaSyDs3yLNqC_J_QL6d7wqkbp2ex_inGqYAF8'
     youtube = build('youtube', 'v3', developerKey=os.getenv("DEVELOPER_KEY"))
+    
 except Exception as e:
     print(e)
 
