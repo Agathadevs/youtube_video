@@ -23,7 +23,8 @@ Search=youtube.Search("query")
 Search.videos() #get a list of videos
 ```
 ### Video's informations
-'''py
+
+```py
 import youtube_video as youtube
 
 Video=youtube.Video("url")
