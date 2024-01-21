@@ -10,7 +10,7 @@ Search videos , get video's informations.
 ```py
 import youtube_video as youtube
 
-youtube.Search("query")
-youtube.Video("url")
+Search=youtube.Search("query")
+Video=youtube.Video("url")
 ```
 # Usage
