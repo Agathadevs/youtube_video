@@ -9,4 +9,6 @@ Search videos , get video's informations.
 
 ```py
 import youtube_video as youtube
+
+youtube.Search("query")
 ```
