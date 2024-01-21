@@ -11,4 +11,6 @@ Search videos , get video's informations.
 import youtube_video as youtube
 
 youtube.Search("query")
+youtube.Video("url")
 ```
+# Usage
